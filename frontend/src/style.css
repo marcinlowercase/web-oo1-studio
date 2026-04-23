@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: "vga";
+    src: url("./data/fonts/perfect_dos_vga_437.ttf") format("truetype");
+}
+a {
+    color: var(--highlight-color);
+    text-decoration: underline;
+}
